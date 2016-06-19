@@ -1,0 +1,161 @@
+
+nav{
+	height: 140px;
+	background-color: black;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	border-bottom: 2px solid black;
+	
+}
+
+section{padding-left: 0;
+padding-right:0;}
+
+@font-face{font-family: mostwasted;
+src:url("../font/Mostwasted.ttf");}
+
+h1{font-family: mostwasted;
+	font-size: 120px;
+	color: white;
+text-align: center;
+
+margin:auto 0;
+letter-spacing: 5px;}
+
+body{background-image: url("../img/gym.jpg");
+margin:0; 
+
+
+}
+
+hr{border: 2px solid white;
+width: 20%;
+margin-top: -2px;}
+
+
+
+
+.location{
+	margin-top: 20px;
+	float: left;
+	padding:20px 30px;
+	background-color: white;
+display: inline-block;
+border: 2px solid black;}
+
+.hours{margin-top: 20px;
+	float: right;
+	background-color: white;
+padding: 20px 30px;
+display: inline-block;
+border: 2px solid black;}
+
+.location, .hours li{font-family: 'Montserrat', sans-serif;
+}
+
+.about{
+	display: inline-block;
+	margin-top: 20px;
+	margin-bottom: -4%;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+	text-align: center;
+	padding: 10%;
+	/*padding-right: 30%;
+	padding-left: 20%;*/
+	background-color: #262626;
+	/*background-image: url("../img/bg.jpg");*/
+	/*border: 5px dashed grey;*/
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+
+
+}
+
+
+
+.about1 p{background-color: white;
+font-family: 'Lora', serif;
+padding:10px;
+}
+
+@font-face{font-family: adrip;
+src:url("../font/adrip1.ttf"); }
+
+h2{font-family: adrip;
+text-align: center;
+letter-spacing: 2px;}
+
+h3{text-align: center;
+ 	font-size: 60px;
+ 	font-family: adrip;
+ 	color: white;
+ 	text-shadow: 4px 4px black;
+ 	letter-spacing: 3px;
+ 	padding: 10px 0;}
+
+.trainers1 {display: inline-block;
+
+float: left;
+width: 30%;
+background-color: white;
+border:2px solid black;
+padding:0 10px;
+padding-top: 30px;
+}
+
+.trainers2 {display: inline-block;
+float: right;
+width: 30%;
+background-color: white;
+border:2px solid black;
+padding: 0 10px;
+padding-top: 32px;}
+
+
+/*make imge wrap with 4 or 6 images*/
+.left{display: inline-block;
+float: left;
+width: 30%;
+margin-right: 20px;}
+
+.right{display: inline-block;
+position: relative;
+
+width: 30%;
+margin-left: 370px;}
+
+img{border-radius: 50px;
+border:2px solid white;}
+
+img:hover{opacity: .7;
+cursor: pointer;}
+/*make text appear when hovered over*/
+
+
+.equipment{/*border:5px dashed grey;*/
+	border-bottom: 1px solid white;
+background-color: black;
+}
+
+.equipment h3{opacity: 3;}
+
+footer{background-color:#191919 ;
+text-align: center;
+padding-top: 2%;
+padding-bottom: 20px;
+}
+
+footer h4{text-transform: uppercase;
+	font-size: 30px;
+color: white;}
+footer p{color: grey;}
+footer a{color: #e5e5e5;
+	background-color: green;
+	padding: 8px;
+transition: 2s;
+border-radius: 10px}
+
+a:hover{color: black;}
+
